@@ -1,0 +1,28 @@
+@media (max-width: 1360px) {
+
+
+
+  .article__block {
+    background-position: left top;
+    background-size: 20% auto;
+    background-repeat: no-repeat;
+    padding-left: 0;
+    padding-top: 22%;
+  }
+
+  
+  .faq__item {
+    width: 100%;
+  }
+
+
+  .footer__part { width: calc((100% - 32px)/2); }
+
+
+  .footer__textblock {
+    display: none;
+  }
+
+
+
+}

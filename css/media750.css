@@ -1,0 +1,80 @@
+@media (max-width: 750px) 
+{
+
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    
+  }
+
+  /* header */
+
+  .nav-horisontal__list {
+    column-gap: 24px;
+  }
+
+   /* main */
+
+
+
+   /* hero */
+
+   .hero {
+    padding: 100px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero__head {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .hero__descr {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  /* about-us*/
+
+  /* presentation */
+
+  .presentation_inside {
+    padding-top: 70%;
+    min-height: 0;
+  }
+
+  /* extension */
+
+  .extension__descr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  
+  /* article */
+
+  /* hov */
+
+  .hov_inside {
+    padding-top: 50%;
+  }
+
+  /* faq */
+
+  .footer__logo {
+    padding: 14px 0;
+    margin-bottom: 10px;
+  }
+
+ 
+
+
+}
+

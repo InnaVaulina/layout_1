@@ -1,0 +1,155 @@
+@media (max-width: 920px) 
+{
+
+  /* header */
+
+  .header__logo .logo {
+    max-width: 110px;
+    max-height: 35px;
+  }
+
+  .header__nav {
+    padding-top: 25px;
+    padding-bottom: 24px;
+  }
+
+  .nav-horisontal__list {
+    column-gap: 40px;
+  }
+
+  .nav-horisontal__link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+    /* main */
+
+    .main__section:nth-child(2) { margin-bottom: 35px; }
+    .main__section:nth-child(3) { margin-bottom: 80px; }
+    .main__section:nth-child(4) { margin-bottom: 0px; }
+
+
+  /* hero */
+
+  .hero {
+    padding: 160px 40px;
+
+  }
+
+  .hero__head {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 61px;
+  }
+
+  .hero__descr {
+    max-width: 100%;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  /* about-us*/
+
+  .about__description {
+    margin-bottom: 55px;
+  }
+
+  /* presentation */
+
+  .presentation_inside {
+    padding-top: 70%;
+    min-height: 650px;
+  }
+
+  /* extension */
+
+  .extension {
+    padding: 34px 40px;
+    border-radius: 30px;
+  }
+
+  .extension__descr {
+    max-width: 366px;
+  }
+
+
+  /* article */
+
+  .article {
+    padding: 35px 46px 33px 39px;
+    border-radius: 30px;
+  }
+
+  .article__block {
+    background-size: 20% 100%;
+    padding-left: 22%;
+  }
+
+  /* hov */
+
+  .hov {
+    padding-bottom: 79px;
+  }
+
+
+  .hov__block {
+    flex-wrap: wrap-reverse;
+  }
+
+  .hov__part {
+    min-width: 100%;
+  }
+
+  .hov__part:nth-child(2) {
+    padding-top: 0;
+  }
+
+  .hov_inside {
+    padding-top: 42%;
+  }
+
+  
+  .hov__descr {
+    margin-bottom: 25px;
+  }
+
+  .hov__br {
+    display: none;
+  }
+
+
+
+  /* faq */
+
+
+  /* problem */
+
+  .problem {
+    padding: 35px 65px 35px 40px;
+  }
+
+  .problem__link {
+    width: 100%;
+  }
+
+
+  /* footer */
+
+  .footer__container {
+    flex-wrap: wrap-reverse;
+    gap: 36px;
+  }
+
+  .footer__part:nth-child(1){ min-width: 100%; }
+
+  .footer__nav {
+    display: none;
+  }
+
+  .footer__logo {
+    margin-bottom: 0;
+  }
+
+}
