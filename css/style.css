@@ -135,11 +135,30 @@ body {
 .logo {
   max-width: 225px;
   max-height: 72px;
+  position: relative;
+}
+
+.logo::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: -4px;
+  right: -4px;
+  bottom: -0px;
+  /*border: 2px solid #FF9900;*/
+  box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 0px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+}
+
+.logo__link:focus .logo::before{
+  opacity: 1;
+  border-radius: 15px;
 }
 
 .header__search {
   padding-top: 8px;
-  order: 2;
 }
 
 
@@ -189,7 +208,7 @@ body {
 
 /**/
 
-.header__nav {
+.nav-horisontal {
   padding-top: 39px;
   padding-bottom: 39px;
   margin-right: 75px;
@@ -276,10 +295,13 @@ body {
 .main__container {
   padding-top: 50px;
   padding-bottom: 100px;
+  position: relative;
 }
 
 .main__h1 {
-  display: none;
+  opacity: 0;
+  position: absolute;
+  top:0;
 }
 
 .main__h2 {
@@ -484,6 +506,7 @@ body {
 /* explanation */
 
 .explanation {
+  order: 1;
   display: flex;
   flex-direction: column;
   row-gap: 32px;
@@ -703,6 +726,7 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 32px;
+  position: relative;
 }
 
 
@@ -715,15 +739,22 @@ body {
   margin-bottom: 8px;
 }
 
-.footer__navigation {
-  display: flex;
-  flex-direction: column;
+.footer__logo .logo::before {
+  box-shadow:  5px 5px 2px rgba(34, 60, 80, 0.2);
 }
-
 
 .footer__nav {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+
+.nav-vertical {
   margin-bottom: 90px;
 }
+
+
 
 
 /* nav */
@@ -780,7 +811,7 @@ body {
   padding-right: 0;
   padding-top: 101px;
   padding-bottom: 87px;
-  
+  order: 2;
 }
 
 .footer__text {
@@ -852,6 +883,7 @@ body {
 /*form*/
 .form{
   padding-top: 14px;
+  order: 1;
 }
 
 .form__head {
@@ -909,6 +941,7 @@ body {
 .check {
   user-select: none;
   cursor: pointer;
+  order: 2;
 }
 
 .check__input {
@@ -950,6 +983,10 @@ body {
   background-repeat: no-repeat;
   transition: opacity 0.3s ease-in-out;
   opacity: 0;
+}
+
+.check__input:focus + .check__text {
+  color: #FFB84D;
 }
 
 .check__input:checked + .check__text::after {

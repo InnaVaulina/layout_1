@@ -20,7 +20,14 @@
 
 
   .footer__textblock {
-    display: none;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+  }
+
+  .footer__text {
+    font-size: 0;
+    line-height: 0;
   }
 
 

@@ -16,13 +16,13 @@
 
   .header__search {
     padding-top: 22px;
-    order: 0;
   }
 
-  .header__nav {
+  .nav-horisontal {
     padding-top: 20px;
     padding-bottom: 40px;
     padding-right: 20%;
+    order: 2;
   }
 
   .nav-horisontal__list {
@@ -276,12 +276,12 @@
 
   .footer__part:nth-child(2){ min-width: 100%; }
 
-  .footer__navigation {
+  .footer__nav {
     align-items: center;
     padding-top: 16px;
   }
 
-  .footer__logo>.logo {
+  .footer__logo .logo {
     max-width: 131px;
     max-height: 42px;
   }
@@ -290,6 +290,8 @@
     margin-bottom: 16px;
     padding: 0;
   }
+
+
 
   .form {
     padding-top: 30px;

@@ -8,7 +8,7 @@
     max-height: 35px;
   }
 
-  .header__nav {
+  .nav-horisontal {
     padding-top: 25px;
     padding-bottom: 24px;
   }
@@ -144,9 +144,11 @@
 
   .footer__part:nth-child(1){ min-width: 100%; }
 
-  .footer__nav {
+  .nav-vertical {
     display: none;
   }
+
+
 
   .footer__logo {
     margin-bottom: 0;
